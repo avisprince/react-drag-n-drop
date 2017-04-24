@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Knight from './components/Knight';
+import Board from './components/Board';
+
+import './index.css';
+import './styles/square.css';
 
 ReactDOM.render(
-  <Knight />,
+  <Board knightPosition={[7,4]} />,
   document.getElementById('root')
 );
